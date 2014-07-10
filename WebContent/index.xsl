@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-     Przykład obrazuje działanie przeglądarki jako procesora XSLT
-
-     Przeglądarka po kliknięciu na dokument "kalendarium.xml" wyświetla dane XML 
-     na różne sposoby w zależności od wskazanego w instrukcji "xml-stylesheet" 
-     dokumentu XML arkusza stylów XSLT (lub braku wskazania na arkusz)
-     
-     Oba pliki transformat XSLT działają prawidłowo dla pliku XML zgodnego ze 
-     schematem "kalendarium.xsd" 
-     
-     Uwagi:
-	1. Zalecane przeglądarki: Opera i Firefox
-	2. Przeglądarka IE nie rozpoznaje formatu SVG
-	3. Przeglądarka Opera w przypadku braku arkusza stylów wyświetla jedynie 
-	   zawartość tekstową dokumentu XML (nie wyświetla znaczników) 
--->
 	
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" version="4.01" encoding="UTF-8" indent="yes"/>
